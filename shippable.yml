@@ -11,8 +11,12 @@ node_js:
   - 5.0
   
 env: 
-  - FOO=GUTU
-  - GOO=FUTU
+  global:
+    - FOO=GUTU
+    - GOO=FUTU
+  matrix:
+    - M1=ONE
+    - M2=TWO
 
 matrix:
   include:
@@ -31,3 +35,5 @@ build:
     - echo "$FOO"
     - echo "$key1"
     - echo "$key2"
+    - echo "$M1"
+    - echo "$M2"
