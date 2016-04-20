@@ -12,9 +12,11 @@ node_js:
   
 env: 
   - FOO=GUTU
+  - GOO=FUTU
 
 build:
   ci:
     - node --version
    # - sleep 3m
     - echo "$FOO"
+    - echo "$GOO"
