@@ -11,12 +11,17 @@ node_js:
   - 5.0
   
 env: 
-  global:
-    - FOO=GUTU
-    - GOO=FUTU
-  matrix:
-    - M1=one
-    - M2=two
+  - FOO=GUTU
+  - GOO=FUTU
+
+matrix:
+  include:
+    - node_js: "5.0"
+      env:
+        - key1=aaa
+        - key3=bbbb
+  exclude:
+    - node_js: "4.2.3"
    
 build:
   ci:
@@ -24,5 +29,5 @@ build:
    # - sleep 3m
     - echo "$GOO"
     - echo "$FOO"
-    - echo "$M1"
-    - echo "$M2"
+    - echo "$key1"
+    - echo "$key2"
