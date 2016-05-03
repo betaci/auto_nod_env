@@ -12,10 +12,12 @@ node_js:
   
 env: 
   global:
-    - FOO=GUTU
+    - secure: nfc8eJMp2FrFbYFcw63rXfEwRzS9QF5m1iUvXtm+TqOdx3XJb6v8R7Q0+wKPFBzyvVsTR60VNP82fWrGzTSXK2PksGZfeAtBjVsDsnE+F4zQ+jOf5HIckmU7hX4IQqtVac5mFNRvaAAqB8hEx0h83TdETYI474D2kMD6UW2sPEeA6J7Ffh0ZnUCO6nOuiEWjf2Hq58z9lmZaI0GR6GYSR+lmv0rj3ptyBXgeqmiCsilaLV4nwFoUFvk6tvNX3/J5N6ITxjcjXq9e3sgDY8b3gJ9hVBwbrrkY7dQgP4EFHrsGsjO28yprl7E1OflNZALieGjYp/Ouuk57SVreeSOoaQ==
+    #- FOO=GUTU beta acc-betaci
     - GOO=FUTU
   matrix:
-    - M1=ONE
+    - secure: 37Y4zTaudCSGYxrKsU68pcUfVO1WpJYT09AVTijGvv5DGydRYNrNvv3RLAVHPqbUVkOQ12a1Dd811SgXrHJ/+THPxcLsdiB47ZlHP5wVtyDLWQtFBS/WZ7oxwM7cr02epPT66QmBMwivTFj3toFjLCLhpAWwh57GvvMlggTT8MMUxeMPEtvrh7C+cJJAGaueGbtYtCPLKWjYTJiAmLEfeWWE5GCAe68xRTiN8wLiGZQPwxT8Pmm8My3gp3AgreE4MH9jCBvaj3rrSDW7t8ddGojPnTUTof8YEob9mLTLrWMhrzF+1Cm+8gQqkRTGgwqKNrZ1/32xR2A5eINaIQxnCA==
+    #- M1=ONE beta acc-betaci
     - M2=TWO
 
 matrix:
@@ -23,7 +25,8 @@ matrix:
     - node_js: "5.0"
       env:
         - key1=aaa
-        - key3=bbbb
+        #- secure: ESlwE1YwH4MWGDWh7YoqbXHRdsTZPKMqPo3TddCg3XK3n4Puz+txgMj/G8x8n7hHOITzhkgvZWSptJ/2YHskE8VkzZvlUp58lco+q7hdeQ8y3ILxqoZCGjIrPiT6AGO7OI0riB2D97eTMcoXsmvXLMMnke22ecW+4tH45Jc2kTLDYjX5yTqSx5KWmjbzGb7mo4QrjWLzswAbVhs0p1ZeYg+nZCzBMKWq7Fs3EJ/K2rXHsuwyygj0/cBtS+HtfbMsRcVqTNBsyY4lpTatSktJcJIbQDeFsaeTX5pXDQAcGHXGkNl8RAa1gPrOMmEk7A1Yf1mCkUPe2bQ9CdCW2KrxxQ==
+        - key2=bbb #beta acc-betaci
   exclude:
     - node_js: "4.2.3"
    
