@@ -49,9 +49,11 @@ build:
     - echo "$M1"
     - echo "$M2"
     
+  cache: true
+  
   #post_ci:
     #- docker shiphitchcock1/auto_nod_env
-  #  
+
 integrations:
   hub:
     - integrationName: shiphitchcock1-hub
