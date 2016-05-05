@@ -31,14 +31,14 @@ matrix:
     - node_js: "4.2.3"
    
 build:
-  pre_ci:
-    - docker build -t=shiphitchcock1/auto_nod_env .
+ # pre_ci:
+   # - docker build -t=shiphitchcock1/auto_nod_env .
 
-  pre_ci_boot:
-      image_name: shiphitchcock1/auto_nod_env
-      image_tag: latest
-      pull: false
-      options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
+  #pre_ci_boot:
+    #  image_name: shiphitchcock1/auto_nod_env
+    #  image_tag: latest
+    #  pull: false
+   #   options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
   ci:
     - node --version
    # - sleep 3m
@@ -49,9 +49,9 @@ build:
     - echo "$M1"
     - echo "$M2"
     
-  post_ci:
-    - docker shiphitchcock1/auto_nod_env
-    
+  #post_ci:
+    #- docker shiphitchcock1/auto_nod_env
+  #  
 integrations:
   hub:
     - integrationName: shiphitchcock1-hub
