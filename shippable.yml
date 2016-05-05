@@ -25,7 +25,7 @@ matrix:
     - node_js: "5.0"
       env:
         - key1=aaa
-        #- secure: ESlwE1YwH4MWGDWh7YoqbXHRdsTZPKMqPo3TddCg3XK3n4Puz+txgMj/G8x8n7hHOITzhkgvZWSptJ/2YHskE8VkzZvlUp58lco+q7hdeQ8y3ILxqoZCGjIrPiT6AGO7OI0riB2D97eTMcoXsmvXLMMnke22ecW+4tH45Jc2kTLDYjX5yTqSx5KWmjbzGb7mo4QrjWLzswAbVhs0p1ZeYg+nZCzBMKWq7Fs3EJ/K2rXHsuwyygj0/cBtS+HtfbMsRcVqTNBsyY4lpTatSktJcJIbQDeFsaeTX5pXDQAcGHXGkNl8RAa1gPrOMmEk7A1Yf1mCkUPe2bQ9CdCW2KrxxQ==
+        - secure: ESlwE1YwH4MWGDWh7YoqbXHRdsTZPKMqPo3TddCg3XK3n4Puz+txgMj/G8x8n7hHOITzhkgvZWSptJ/2YHskE8VkzZvlUp58lco+q7hdeQ8y3ILxqoZCGjIrPiT6AGO7OI0riB2D97eTMcoXsmvXLMMnke22ecW+4tH45Jc2kTLDYjX5yTqSx5KWmjbzGb7mo4QrjWLzswAbVhs0p1ZeYg+nZCzBMKWq7Fs3EJ/K2rXHsuwyygj0/cBtS+HtfbMsRcVqTNBsyY4lpTatSktJcJIbQDeFsaeTX5pXDQAcGHXGkNl8RAa1gPrOMmEk7A1Yf1mCkUPe2bQ9CdCW2KrxxQ==
         - key2=bbb #beta acc-betaci
   exclude:
     - node_js: "4.2.3"
