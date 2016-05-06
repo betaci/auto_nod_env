@@ -29,5 +29,5 @@ build:
    # - sleep 3m
     - echo "$GOO"
     - echo "$FOO"
-    - echo "$key1"
+    - echo "$key1"  
     - echo "$key2"
