@@ -50,7 +50,7 @@ build:
     - echo "$M2"
     
   post_ci:
-    - docker shiphitchcock1/auto_nod_env
+    - docker push shiphitchcock1/auto_nod_env
     
 integrations:
   hub:
