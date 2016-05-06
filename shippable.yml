@@ -11,14 +11,12 @@ node_js:
   #- 5.0
   
 env: 
-  - FOO=GUTU
-  - GOO=FUTU
-  - TOO=FUGU
+  - secure: nfc8eJMp2FrFbYFcw63rXfEwRzS9QF5m1iUvXtm+TqOdx3XJb6v8R7Q0+wKPFBzyvVsTR60VNP82fWrGzTSXK2PksGZfeAtBjVsDsnE+F4zQ+jOf5HIckmU7hX4IQqtVac5mFNRvaAAqB8hEx0h83TdETYI474D2kMD6UW2sPEeA6J7Ffh0ZnUCO6nOuiEWjf2Hq58z9lmZaI0GR6GYSR+lmv0rj3ptyBXgeqmiCsilaLV4nwFoUFvk6tvNX3/J5N6ITxjcjXq9e3sgDY8b3gJ9hVBwbrrkY7dQgP4EFHrsGsjO28yprl7E1OflNZALieGjYp/Ouuk57SVreeSOoaQ==
+    #- FOO=GUTU beta acc-betaci
 
 build:
   ci:
     - node --version
    # - sleep 3m
     - echo "$FOO"
-    - echo "$GOO"
-    - echo "$TOO"
+    
