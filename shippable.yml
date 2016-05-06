@@ -11,9 +11,12 @@ node_js:
   #- 5.0
   
 env: 
-  - FOO=GUTU
-  - GOO=FUTU
-  - TOO=FUGU
+  - secure: nfc8eJMp2FrFbYFcw63rXfEwRzS9QF5m1iUvXtm+TqOdx3XJb6v8R7Q0+wKPFBzyvVsTR60VNP82fWrGzTSXK2PksGZfeAtBjVsDsnE+F4zQ+jOf5HIckmU7hX4IQqtVac5mFNRvaAAqB8hEx0h83TdETYI474D2kMD6UW2sPEeA6J7Ffh0ZnUCO6nOuiEWjf2Hq58z9lmZaI0GR6GYSR+lmv0rj3ptyBXgeqmiCsilaLV4nwFoUFvk6tvNX3/J5N6ITxjcjXq9e3sgDY8b3gJ9hVBwbrrkY7dQgP4EFHrsGsjO28yprl7E1OflNZALieGjYp/Ouuk57SVreeSOoaQ==
+    #- FOO=GUTU beta acc-betaci
+  - secure: d4DpVADIQtGsaY9LkuRKT/RrBgSzYLM5Q42kT8CcUo3CIZ78KmFG9LguYp8ojgzC48Jez5d1K1Y1y8CJ0DMIbt0dJZ4LQpOyps1h/iO46tkZm9YhA4378VG0DrqV2PgYolVvTgQ5CxoiSHGV86g8Z9F/98uE0lzRoPrCNao3tjNwyVqg5fhl4gjvSP7XU1naCwR9a2pQWFzQM2nkwK3VPe6niZJGslVE2NsUq7d1+7qOtt3l27eYAGjYaEaJxBTxIETiz0/nM1yVGR8CIVQcF0LgHYgsZfNJwZvJQySRhmNCqc6XxUWjsZKoZGcvkcUBd/J2sTs2e/l814XyUEYSgg==
+    #- GOO=FUTU beta acc-betaci
+  - secure: nxteFc2T2XvFkmiw8x+oQ5H3wyALF8VtUMe1nX1qvLABCpbJ5Jko08O0dwM/RwIWXpmNh6jNGiM+gPdwwqjm3zVgoOw64iPNuNVnNj48W1it9TIyuFeK6CwrF4b5FpiqPuyJKzokf61N+83BywtcARmME8ri980DYaTF46uqfnoXxWCtJAsIEmlIJxQM3kXhBUtjd2ngbajPROgXbfe1Zcp1Wg3OtRsQairJux2GG4uO8NQgz0JZOYIaFHlN1y4ZgpdvoNfmFlkNP+uIthZfoapfUITuAbgZ3sh45AC0b4YqNk+gEyW3x23VizlFdWNuKtdQZt7gnCuEweQy3RVz3w==
+    #- TOO=FUGU beta acc-betaci
 
 build:
   ci:
